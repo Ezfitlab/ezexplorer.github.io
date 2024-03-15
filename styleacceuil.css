@@ -296,9 +296,114 @@ li:hover { background-color:rgb(191, 21, 21); border: solid black 1px; border-ra
 .lienvoyage{color: black; text-decoration: underline rgb(191, 21, 21) ;}
 .lienvoyage:hover{background-color: rgb(191, 21, 21); border: solid 1px black; padding:none;transition: 0.3s linear; }
 
-.icone{margin-left: 1109px; display: flex;}
-.icon{margin-left: 10px ; height: 50px; width: 100px;display: flex; justify-content: center; align-items: center; border-radius: 113px;  background: #871717; box-shadow:  5px 5px 10px #7c1515,  -5px -5px 10px #921919;}
+.icone{margin-left: 1079px; display: flex;}
+.icon{margin-left: 10px ; height: 50px; width: 100px;display: flex; justify-content: center; align-items: center; border-radius: 113px;  background: #871717; box-shadow:  5px 5px 10px #7c1515,  -5px -5px 10px #921919; padding-top:-2px; padding-left: 1px; padding-right: 1px;}
 .icon:hover{box-shadow: inset 5px 5px 10px #7c1515, inset -5px -5px 10px #921919;}
 .masque{width: 130px; height: 150px; margin-bottom: -149px; margin-left: -1200px;}
+footer{width:1462px;}
+
+/* LE RESPONSIVE DESIGN */
+
+/* 1500 : notebook */
+
+@media all and (max-width: 1520px)  {
+
+
+#menu{display: grid; grid-template-columns: repeat(4, 320px); }
+#Tokyo{width: 260px;}
+#korean {margin-left: 425px;}
+footer{width:1432px;}
+#pageville{height: 100%;}
+#pageville2{height: 100%;}
+#pageville3{height: 100%;}
+#pageville4{height: 100%;}
+#pageville5{height: 100%;}
+#pageville6{height: 100%;}
+#pageville7{height: 100%;}
+}
+
+
+@media all and (max-width: 1460px)  {
+
+       #menu{display: grid; grid-template-columns: repeat(4, 300px); }
+       #korean {margin-left: 400px;}
+       #theform{margin-left: 450px;}
+#Tokyo{width: 280px; margin-right: 8px; }
+#Berlin{width: 280px; margin-left: 8px;  }
+#Nairobi{width: 280px; margin-left: -20px; }
+#Rio{width: 280px; margin-left: -50px; }
+#Lisbonne{width: 280px; margin-left: 10px;}
+#Moscou{width: 280px;margin-left: -20px;}
+#Helsinki{width: 280px; margin-left: -50px;}
+footer{width:1390px;}
+.icon{width:55px;}
+.retour{margin-left: 929px;}
+.maps{margin-left: 323px;}
+.casaplane{margin-left: 298px;}
+#pageville{height: 100%;}
+#pageville2{height: 100%;}
+#pageville3{height: 100%;}
+#pageville4{height: 100%;}
+#pageville5{height: 100%;}
+#pageville6{height: 100%;}
+#pageville7{height: 100%;}
+       }
+@media all and (max-width: 1420px)  {
+
+       #menu{display: grid; grid-template-columns: repeat(4, 295px);  }
+       #korean {margin-left: 380px;}
+       #theform{margin-left: 430px;}
+#Tokyo{width: 270px; margin-right: 8px;  }
+#Berlin{width: 270px; margin-left: 8px;  }
+#Nairobi{width: 270px; margin-left: -35px; }
+#Rio{width: 270px;margin-left: -90px;}
+#Lisbonne{width: 270px; margin-left: 8px;}
+#Moscou{width: 270px; margin-left: -35px;}
+#Helsinki{width: 270px; margin-left: -90px;}
+.masque{margin-left: -1070px ;}
+.icone{margin-left: 895px;}
+.icon{width: 45px;}
+.retour{margin-left: 829px;}
+
+.maps{margin-left: 283px;}
+.casaplane{margin-left: 269px;}
+footer{width: 1370px;}
+#pageville{height: 100%;}
+#pageville2{height: 100%;}
+#pageville3{height: 100%;}
+#pageville4{height: 100%;}
+#pageville5{height: 100%;}
+#pageville6{height: 100%;}
+#pageville7{height: 100%;}
+
+
+       }
+
+       @media all and (max-width: 1300px)  {
+
+              #menu{display: grid; grid-template-columns: repeat(4, 295px);  }
+              #korean {margin-left: 380px;}
+              #theform{margin-left: 430px;}
+       #Tokyo{width: 270px; margin-right: 8px;  }
+       #Berlin{width: 270px; margin-left: 8px;  }
+       #Nairobi{width: 270px; margin-left: -45px; }
+       #Rio{width: 270px;margin-left: -98px;}
+       #Lisbonne{width: 270px; margin-left: 8px;}
+       #Moscou{width: 270px; margin-left: -35px;}
+       #Helsinki{width: 270px; margin-left: -90px;}
+       .masque{margin-left: -1070px ;}
+       .icone{margin-left: 895px;}
+       .icon{width: 45px;}
+       .maps{margin-left: 243px;}
+       .casaplane{margin-left: 259px;}
+       footer{width: 1240px;}
+       #pageville{height: 100%;}
+#pageville2{height: 100%;}
+#pageville3{height: 100%;}
+#pageville4{height: 100%;}
+#pageville5{height: 100%;}
+#pageville6{height: 100%;}
+#pageville7{height: 100%;}
+              }
 
 
